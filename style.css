@@ -127,7 +127,7 @@ section{
     width: 100%;
 }
 
-header, .intro, .content{
+header, .intro, .content, footer{
     margin: 0 auto;
     width: 70%;
 }
@@ -442,6 +442,24 @@ h3{
     align-items: center;
 }
 
+footer{
+    margin-bottom: 20px;
+}
+
+footer #dev-logo{
+    margin-left: 10px;
+    width: 45px;
+    cursor: pointer;
+}
+
+footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 1350px){
     iframe{
         width: 270px;
@@ -721,6 +739,11 @@ h3{
     .contact{
         height: 80vh;
         background: linear-gradient(to right, #FF9538, #FF9538 40%);
+    }
+
+    footer #dev-logo{
+        margin-top: 5px;
+        width: 35px;
     }
 }
 
